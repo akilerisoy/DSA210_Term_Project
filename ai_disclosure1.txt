@@ -1,5 +1,5 @@
 # AI Assistance Disclosure
 
-This project used Claude (Anthropic) as an AI assistant. All usage is documented below as required by DSA 210 guidelines.
+This project used Claude as an AI assistant. All usage is documented below as required by DSA 210 guidelines.
 
 Claude was used to write the base versions of data_collection.py, eda.py and hypothesis_testing.py. I ran all scripts, identified and fixed column name errors, corrected the position grouping codes (DF, MF, FW, GK), verified the merged dataset was correct, reviewed all output figures, confirmed that non-parametric tests were appropriate given the non-normal distribution of market values, and simplified the terminal output of all three scripts myself.
