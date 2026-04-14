@@ -1,6 +1,6 @@
 # AI Assistance Disclosure
 
-This project used Claude (Anthropic) as an AI assistant. All usage is documented below as required by DSA 210 guidelines.
+This project used Claude. All usage is documented below as required by DSA 210 guidelines.
 
 ## 1. Data Collection (data_collection.py)
 Asked Claude to write the base script to load, merge and clean the FBref and Transfermarkt datasets. I ran the script, identified and fixed column name errors, verified the merged output was correct, and adjusted the filtering logic.
