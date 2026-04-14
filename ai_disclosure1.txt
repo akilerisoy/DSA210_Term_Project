@@ -1,12 +1,5 @@
 # AI Assistance Disclosure
 
-This project used Claude. All usage is documented below as required by DSA 210 guidelines.
+This project used Claude (Anthropic) as an AI assistant. All usage is documented below as required by DSA 210 guidelines.
 
-## 1. Data Collection (data_collection.py)
-Asked Claude to write the base script to load, merge and clean the FBref and Transfermarkt datasets. I ran the script, identified and fixed column name errors, verified the merged output was correct, and adjusted the filtering logic.
-
-## 2. EDA (eda.py)
-Asked Claude to write the base EDA script. I reviewed all output figures, identified that the position grouping was incorrect, fixed the position codes (DF, MF, FW, GK), and adjusted chart sizes and formatting.
-
-## 3. Hypothesis Testing (hypothesis_testing.py)
-Asked Claude to write the base hypothesis testing script. I verified that non-parametric tests were appropriate given the non-normal distribution of market values, checked that the results made intuitive sense, and simplified the terminal output myself.
+Claude was used to write the base versions of data_collection.py, eda.py and hypothesis_testing.py. I ran all scripts, identified and fixed column name errors, corrected the position grouping codes (DF, MF, FW, GK), verified the merged dataset was correct, reviewed all output figures, confirmed that non-parametric tests were appropriate given the non-normal distribution of market values, and simplified the terminal output of all three scripts myself.
