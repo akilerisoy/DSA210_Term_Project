@@ -12,7 +12,7 @@ Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-Run scripts in order:
+Run scripts in order: (python3 if python fails)
 ```
 python data_collection.py
 python eda.py
